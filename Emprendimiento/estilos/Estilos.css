@@ -1,11 +1,4 @@
-#carrusell {
-    height: 100%;
-}
 
-#carouselExampleSlidesOnly{
-    height: 600px;
-    width: 100%;
-}
 
 #txt-idea {
     position: absolute;
@@ -18,15 +11,14 @@
 
 }
 
-#transparencia {
+#transparencia{
+   height: 100%;
     background-color: whitesmoke;
-    opacity: 0.7;
+    opacity: 0.8;
     float: left;
 }
 
-#invisible {
-    visibility: hidden;
-}
+
 
 element.style {
     visibility: visible;
@@ -48,7 +40,7 @@ element.style {
     padding: 40px 0;
 }
 
-.aqua {
+.aqua {/*color del texto igual al logo*/
     color: #009BA4;
 }
 
