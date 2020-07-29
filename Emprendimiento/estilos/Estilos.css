@@ -44,3 +44,57 @@ element.style {
     color: #009BA4;
 }
 
+.fondo{
+    background-color: #50d8af;
+    margin: auto;
+}
+
+.letra-blanca{
+    font-weight: bold;
+    color: white ;
+    text-align: center;
+    
+}
+
+.section-header h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #50d8af;
+    bottom: 0;
+    left: 0;
+  }
+
+  .titulo{
+    font-size: 32px;
+    color: #0c2e8a;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  
+      
+  #team .member .details {
+    background: #50d8af;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+  }
+
+  
+
+  #team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+  }
