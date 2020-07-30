@@ -1,11 +1,4 @@
-#carrusell {
-    height: 100%;
-}
 
-#carouselExampleSlidesOnly{
-    height: 600px;
-    width: 100%;
-}
 
 #txt-idea {
     position: absolute;
@@ -18,15 +11,14 @@
 
 }
 
-#transparencia {
+#transparencia{
+   height: 100%;
     background-color: whitesmoke;
-    opacity: 0.7;
+    opacity: 0.8;
     float: left;
 }
 
-#invisible {
-    visibility: hidden;
-}
+
 
 element.style {
     visibility: visible;
@@ -48,7 +40,108 @@ element.style {
     padding: 40px 0;
 }
 
-.aqua {
+.aqua {/*color del texto igual al logo*/
     color: #009BA4;
 }
 
+.fondo{
+    background-color: #50d8af;
+    margin: auto;
+}
+
+.letra-blanca{
+    font-weight: bold;
+    color: white ;
+    text-align: center;
+    
+}
+
+.section-header h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #50d8af;
+    bottom: 0;
+    left: 0;
+  }
+
+  .titulo{
+    font-size: 32px;
+    color: #0c2e8a;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  
+      
+  #team .member .details {
+    background: #50d8af;
+    color: #fff;
+    padding: 15px;
+    border-radius: 0 0 3px 3px;
+  }
+
+  
+
+  #team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+  }
+
+
+  #contact .contact-info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact .contact-info i {
+    font-size: 48px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #50d8af;
+}
+
+
+#contact .contact-phone {
+    border-left: 5px solid  #ddd;
+    border-right: 5px solid  #ddd;
+}
+
+#contact .contact-address, #contact .contact-phone, #contact .contact-email {
+    padding: 20px 0;
+}
+
+
+
+#contact .contact-info h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.cajas{
+    
+    width: 352px;
+    height: 242px;
+}
+
+.margen{
+    margin: 0 0 15px;
+}
+
+.margen1{
+    margin: 0 0 30px;
+}

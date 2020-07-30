@@ -29,9 +29,9 @@
   <!--FIN - BARRA SUPERIROR CONTACTO-->
 
   <!--NAVBAR-->
-  <div class="border-top sticky-top bg-white">
+  <div class="border-top sticky-top bg-white shadow-sm">
     <nav class="navbar navbar-expand-lg navbar-light bg-white container">
-      <a class="navbar-brand" href="index.html"><img src="img/logo_aqm_small.png" alt="logo"></a>
+      <a class="navbar-brand" href="index.html"><img src="img/logo_arq_small.png" alt="logo"></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,16 +83,9 @@
         <div class="carousel-item">
           <img class="d-block w-100" src="img/intro-carousel/5.jpg" alt="Third slide">
         </div>
-
         <div id="transparencia">
-          <img src="img/intro-carousel/1.jpg" alt="" id="invisible" class="d-block w-100">
-        </div>
-        <div id="txt-idea" class="display-2 text-center">
-          <p class="font-weight-bold">
-            <span class="text-primary">Hacemos</span><span class="aqua"> tus ideas</span><span class="text-primary" > realidad!</span> 
-          </p>
-        </div>
-      
+          <img src="img/intro-carousel/hacemos.png" alt="" class="d-block w-100">
+        </div>        
       </div>
       
 
@@ -110,10 +103,10 @@
         </div>
 
         <div class="col-lg-6 content my-auto">
-          <h2 class="text-primary">Si puedes imaginarlo, podemos fabricarlo</h2>
+          <h2 class="aqua">Si puedes imaginarlo, podemos fabricarlo</h2>
           <h3 class="text-secondary my-3">Compartenos tu idea</h3>
 
-          <p class="p-4">
+          <p class="p-4 text-secondary">
             La mayoría de las ideas nunca llegan a realizarse. La semilla de cada idea es un pequeño pensamiento acerca de algo, brillante y efímero, que viene y se va en cuanto cualquier cosa de tu entorno — un email, una llamada, una tarea — te vuelve a distraer. Otras veces, la idea va seguida de un periodo de tiempo en estás realmente emocionado con ella pero, de nuevo, la vuelta a la rutina va haciendo decaer la excitación y, con el tiempo, la idea termina cayendo en el olvido.
           </p>
 
@@ -127,41 +120,37 @@
       <!-- ======= Services Section ======= -->
       <section id="services">
         <div class="container">
-          <div class="section-header">
-            <h2>Services</h2>
-            <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <div class="section-header ">
+            <h2 class="aqua mt-4">Servicios</h2>
+            <p class="text-secondary">Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
           </div>
   
-          <div class="row">
+          <div class="row text-secondary">
   
-            <div class="col-lg-6">
-              <div class="box wow fadeInLeft">
-                <div class="icon"><i class="fa fa-bar-chart"></i></div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <div class="col-lg-6 p-0" id="iluminacion">
+              <div class="shadow m-1 p-4">
+                <h4 class="title"><a href="">Diseño de Iluminación</a></h4>
                 <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
               </div>
             </div>
   
-            <div class="col-lg-6">
-              <div class="box wow fadeInRight">
-                <div class="icon"><i class="fa fa-picture-o"></i></div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
+            <div class="col-lg-6 p-0" id="mobiliario">
+              <div class="shadow m-1 p-4">
+                <h4 class="title"><a href="">Diseño de Mobiliario</a></h4>
                 <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
               </div>
             </div>
   
-            <div class="col-lg-6">
-              <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <div class="col-lg-6 p-0" id="cocina">
+              <div class="shadow m-1 p-4" data-wow-delay="0.2s">
+                <h4 class="title"><a href="">Diseño de cocinas</a></h4>
                 <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
               </div>
             </div>
   
-            <div class="col-lg-6">
-              <div class="box wow fadeInRight" data-wow-delay="0.2s">
-                <div class="icon"><i class="fa fa-map"></i></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <div class="col-lg-6 p-0" id="interior">
+              <div class="shadow m-1 p-4" data-wow-delay="0.2s">
+                <h4 class="title"><a href="">Diseño de interiores</a></h4>
                 <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
               </div>
             </div>
@@ -181,35 +170,39 @@
 
 
    <!--Andres Fierro-->
+   <!--Nuestro Equipo-->
 
    <section id="team" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
     <div class="container">
-      <div class="section-header">
-        <h2>Nuestro Equipo</h2>
+      <div class="section-header titulo">
+        <h2>
+          Nuestro Equipo
+        </h2>
       </div>
+      <br>
+      <br>
+      <br>
       <div class="row">
         <div class="col-lg-3 col-md-6">
           <div class="member">
-            <div class="pic"><img src="Imagenes/Robert Circulo.png" alt=""></div>
-            <div class="details">
+            <div class="pic"><img src="img/Robert Circulo.png" alt=""></div>
+            <div class="details fondo letra-blanca">
               <h4>Roberto Jimenez</h4>
               <span>Director Ejecutivo</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
+              <span>+57 318 750-42-98</span>
+              <span>rjimenez@todosistemassti.co</span>
             </div>
           </div>
         </div>
 
         <div class="col-lg-3 col-md-6">
           <div class="member">
-            <div class="pic"><img src="Imagenes/Andres Circulo.png" alt=""></div>
-            <div class="details">
+            <div class="pic"><img src="img/Andres Circulo.png" alt=""></div>
+            <div class="details fondo letra-blanca">
               <h4>Andres Fierro</h4>
               <span>Director de Producto</span>
+              <span>+57 312 374-75-77</span>
+              <span>afierro@todosistemassti.co</span>
               <div class="social">
                 <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
@@ -222,10 +215,12 @@
 
         <div class="col-lg-3 col-md-6">
           <div class="member">
-            <div class="pic"><img src="Imagenes/Jose Circulo.png" alt=""></div>
-            <div class="details">
+            <div class="pic"><img src="img/Jose Circulo.png" alt=""></div>
+            <div class="details fondo letra-blanca">
               <h4>Jose Fernelly</h4>
               <span>CTO</span>
+              <span>+57 316 659-84-50</span>
+              <span>fjimenez@todosistemassti.co</span>
               <div class="social">
                 <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
@@ -235,24 +230,126 @@
             </div>
           </div>
         </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="member">
+            <div class="pic"><img src="img/mari Circulo.jpg" alt=""></div>
+            <div class="details fondo letra-blanca">
+              <h4>Maria Castillo</h4>
+              <span>Directora General</span>
+              <span>+57 316 4-03-10-40</span>
+              <span>arquimari@gmail.com</span>
+              <div class="social">
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-google-plus"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </section>
+  <br>
+  <br>
+  <br>
+
+  <!--Acontactenos-->
+
+  <section id="contact" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+    <div class="container">
+      <div class="section-header titulo">
+        <h2>Contactenos</h2>
+      </div>
+      <br>
+
+      <div>
+        <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+      </div>
+      <br>
+      <br>
+      <div class="row contact-info">
+        <br>
+        <br>
+      
+        <div class="col-md-4 cajas">
+          <div class="contact-address">
+            <i class="ion-ios-location-outline"></i>
+            <div class="pic margen"><img src="img/-ilustración_csp64090326.png" alt=""></div>
+            <h3>Direccion</h3>
+            <address>A108 Adam Street, NY 535022, USA</address>
+          </div>
+        </div>
+
+        <div class="col-md-4 cajas">
+          <div class="contact-phone">
+            <i class="ion-ios-telephone-outline"></i>
+            <div class="pic margen1"><img src="img/phone-handset_icon-icons.png" alt=""></div>
+            <h3>Telefono</h3>
+            <p><a href="tel:+57 312-374-75-77">+57 312-374-75-77</a></p>
+          </div>
+        </div>
+
+        <div class="col-md-4 cajas">
+          <div class="contact-email">
+            <i class="ion-ios-email-outline"></i>
+            <div class="pic margen"><img src="img/-ilustración_csp64090326.png" alt=""></div>
+            <h3>Email</h3>
+            <p><a href="mailto:info@example.com">info@example.com</a></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container mb-4">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+    </div>
+
+    <div class="container">
+      <div class="form">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+            <div class="validate"></div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+            <div class="validate"></div>
+          </div>
+
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+
+    </div>
   </section>
 
 
-  <div class="col-lg-3 col-md-6">
-    <div class="member">
-      <div class="pic"><img src="" alt=""></div>
-      <div class="details">
-        <h4>>Mari Fernelly</h4>
-        <span>Directora General</span>
-        <div class="social">
-          <a href=""><i class="fa fa-twitter"></i></a>
-          <a href=""><i class="fa fa-facebook"></i></a>
-          <a href=""><i class="fa fa-google-plus"></i></a>
-          <a href=""><i class="fa fa-linkedin"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
+
+
+
+
+
+  
+
+  
   
   
 <!-- Roberto Jiménez -->
@@ -458,20 +555,45 @@
 
   <script>
     ScrollReveal().reveal('.navbar', {
-      distance: '150%',
+      distance: '100%',
       origin: 'top',
     });
     
 
     ScrollReveal().reveal('.barra', {
-      distance: '150%',
+      distance: '100%',
       origin: 'top',
     });
 
     ScrollReveal().reveal('.nosotros', {
-      distance: '150%',
+      distance: '100%',
       origin: 'bottom',
-      delay: 2000,
+      delay: 600,
+    });
+    
+
+    ScrollReveal().reveal('#iluminacion', {
+      distance: '100%',
+      origin: 'left',
+      delay: 600,
+    });
+
+    ScrollReveal().reveal('#mobiliario', {
+      distance: '100%',
+      origin: 'right',
+      delay: 600,
+    });
+
+    ScrollReveal().reveal('#cocina', {
+      distance: '100%',
+      origin: 'left',
+      delay: 800,
+    });
+
+    ScrollReveal().reveal('#interior', {
+      distance: '100%',
+      origin: 'right',
+      delay: 800,
     });
     
 
