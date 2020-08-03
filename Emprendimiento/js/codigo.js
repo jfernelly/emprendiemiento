@@ -42,7 +42,6 @@ $('.stop').on('click',function(){
 
 
 
-<<<<<<< HEAD
 
 /* Efecto Scroll */
 ScrollReveal().reveal('.navbar', {
@@ -88,5 +87,3 @@ ScrollReveal().reveal('.navbar', {
   });
 
   
-=======
->>>>>>> 69269d61813dd472e2be977f6fd63f65d1222c9a
