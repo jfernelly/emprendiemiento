@@ -6,9 +6,13 @@ function consultaAPI(){
     const covid = "https://services.arcgis.com/BQTQBNBsmxjF8vus/ArcGIS/rest/services/Colombia_COVID19V/FeatureServer/6/query?where=1%3D1&outFields=TOTAL_CASOS,FECHA_ACTUALIZACION&outSR=4326&f=json"
 
     $.get( covid, function (data) {
-        consulta = data;
-        console.log(consulta);
-        personajes.forEach(element => {
+        //consulta = data;
+        //console.log(data);
+        console.log(data.attributes.pop());
+        
+
+        
+        
 
     
 
@@ -38,6 +42,7 @@ $('.stop').on('click',function(){
 
 
 
+<<<<<<< HEAD
 
 /* Efecto Scroll */
 ScrollReveal().reveal('.navbar', {
@@ -83,3 +88,5 @@ ScrollReveal().reveal('.navbar', {
   });
 
   
+=======
+>>>>>>> 69269d61813dd472e2be977f6fd63f65d1222c9a
