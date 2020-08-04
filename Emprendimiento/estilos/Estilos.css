@@ -154,3 +154,14 @@ h1, h2, h3, h4, h5, h6 {
 .mas-info {
     float: right;
 }
+
+
+.titulo1{
+    font-size: 32px;
+    color: #0c2e8a;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 0 570px;
+}
