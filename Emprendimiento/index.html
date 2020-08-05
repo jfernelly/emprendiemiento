@@ -3,44 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="estilos/fotorama.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-
   <link rel="stylesheet" href="estilos/Estilos.css">
-  <link rel="stylesheet" href="OwlCarousel/dist/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="OwlCarousel/dist/assets/owl.theme.default.min.css">
 
   <title>Inicio</title>
 </head>
 
 <body>
-    <!--INICIO - BARRA SUPERIROR COVID-->
-    <div class="alerta shadow-sm" id="inicio">
-      <div class="container ">
-        <!--FALTAN LOS ICONOS Y DARLE ESTILO A LAS FUENTES-->
-        <div class="p-2">
-          <div class="text-center border-bottom border-white">
-            <h3 class="text-white font-weight-bold">Colombia en Alerta Naranja</h3>
-          </div>
-          <div class="mt-2">
-            <div class="d-inline text-danger font-weight-bold ">
-              TOTAL CONTAGIOS: <span id="iContagios"></span>
-            </div>
-            <div class="mas-info">
-              <a href="https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx" target="_blank" >Más información COVID</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--FIN - BARRA SUPERIROR COVID-->
-
-
   <!--INICIO - BARRA SUPERIROR CONTACTO-->
   <div class="container barra">
     <!--FALTAN LOS ICONOS Y DARLE ESTILO A LAS FUENTES-->
@@ -66,23 +39,23 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#nosotros">Nosotros</a>
+            <a class="nav-link" href="#about">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a data-scroll class="nav-link" href="#services">Servicios</a>
+            <a class="nav-link" href="#">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portafolio</a>
+            <a class="nav-link" href="#">Portafolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#team">Equipo</a>
+            <a class="nav-link" href="#equipo">Equipo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
+            <a class="nav-link" href="#">Contacto</a>
           </li>
         </ul>
       </div>
@@ -122,21 +95,16 @@
 
 
   <!-- ======= Incio Quines Somos ======= -->
-  <section class="nosotros" id="nosotros">
+  <section class="nosotros">
     <div class="container">
-      
-        
-      
-      
       <div class="row about-sube">
         <div class="col-lg-6">
           <img class="img-fluid" src="img/about/750x500.jpg" alt="">
         </div>
 
         <div class="col-lg-6 content my-auto">
-          <h2 class="section-header titulo">Nosotros</h2>
-        <h2 class="aqua">Si puedes imaginarlo, podemos fabricarlo</h2>
-        
+          <h2 class="aqua">Si puedes imaginarlo, podemos fabricarlo</h2>
+          <h3 class="text-secondary my-3">Compartenos tu idea</h3>
 
           <p class="p-4 text-secondary">
             La mayoría de las ideas nunca llegan a realizarse. La semilla de cada idea es un pequeño pensamiento acerca de algo, brillante y efímero, que viene y se va en cuanto cualquier cosa de tu entorno — un email, una llamada, una tarea — te vuelve a distraer. Otras veces, la idea va seguida de un periodo de tiempo en estás realmente emocionado con ella pero, de nuevo, la vuelta a la rutina va haciendo decaer la excitación y, con el tiempo, la idea termina cayendo en el olvido.
@@ -148,13 +116,12 @@
     </div>
   </section><!-- Fin Quines somos -->
 
-  <br>
+
       <!-- ======= Services Section ======= -->
       <section id="services">
         <div class="container">
           <div class="section-header ">
-            <h2 class="section-header titulo">Servicios</h2>
-            <br>
+            <h2 class="aqua mt-4">Servicios</h2>
             <p class="text-secondary">Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
           </div>
   
@@ -212,10 +179,11 @@
           Nuestro Equipo
         </h2>
       </div>
-
-      
-      <div class="row" >
-        <div class="col-lg-3 col-md-6 team-img-01">
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
           <div class="member">
             <div class="pic"><img src="img/Robert Circulo.png" alt=""></div>
             <div class="details fondo letra-blanca">
@@ -227,7 +195,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 team-img-02" >
+        <div class="col-lg-3 col-md-6">
           <div class="member">
             <div class="pic"><img src="img/Andres Circulo.png" alt=""></div>
             <div class="details fondo letra-blanca">
@@ -245,7 +213,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 team-img-03">
+        <div class="col-lg-3 col-md-6">
           <div class="member">
             <div class="pic"><img src="img/Jose Circulo.png" alt=""></div>
             <div class="details fondo letra-blanca">
@@ -263,14 +231,12 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 team-img-04">
+        <div class="col-lg-3 col-md-6">
           <div class="member">
-            <div class="pic"><img src="img/mari Circulo.jpg" alt=""></div>
+            <div class="pic"><img src="" alt=""></div>
             <div class="details fondo letra-blanca">
-              <h4>Maria Castillo</h4>
+              <h4>Mari Fernelly</h4>
               <span>Directora General</span>
-              <span>+57 316 4-03-10-40</span>
-              <span>arquimari@gmail.com</span>
               <div class="social">
                 <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
@@ -291,41 +257,34 @@
   <section id="contact" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
     <div class="container">
       <div class="section-header titulo">
-        <h2>Contactenos</h2>
+        <h2>Contact Us</h2>
       </div>
       <br>
 
       <div>
         <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
       </div>
-      <br>
-      <br>
       <div class="row contact-info">
-        <br>
-        <br>
-      
-        <div class="col-md-4 cajas">
+
+        <div class="col-md-4">
           <div class="contact-address">
             <i class="ion-ios-location-outline"></i>
-            <div class="pic margen"><img src="img/-ilustración_csp64090326.png" alt=""></div>
-            <h3>Direccion</h3>
+            <h3>Address</h3>
             <address>A108 Adam Street, NY 535022, USA</address>
           </div>
         </div>
 
-        <div class="col-md-4 cajas">
+        <div class="col-md-4">
           <div class="contact-phone">
             <i class="ion-ios-telephone-outline"></i>
-            <div class="pic margen1"><img src="img/phone-handset_icon-icons.png" alt=""></div>
-            <h3>Telefono</h3>
-            <p><a href="tel:+57 312-374-75-77">+57 312-374-75-77</a></p>
+            <h3>Phone Number</h3>
+            <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
           </div>
         </div>
 
-        <div class="col-md-4 cajas">
+        <div class="col-md-4">
           <div class="contact-email">
             <i class="ion-ios-email-outline"></i>
-            <div class="pic margen1"><img src="img/Mensaje.png" alt=""></div>
             <h3>Email</h3>
             <p><a href="mailto:info@example.com">info@example.com</a></p>
           </div>
@@ -334,40 +293,48 @@
       </div>
     </div>
 
-   <!--Escribenos-->
+    <div class="container mb-4">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+    </div>
 
-  
     <div class="container">
       <div class="form">
-        <div class="form-row">
-          <div class="form-group col-md-6">
-             <input type="text" name="name" class="form-control" id="name" placeholder="Nombre Completo" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
             <div class="validate"></div>
           </div>
-          <div class="form-group col-md-6">
-            <input type="email" name="email" class="form-control" id="email" placeholder="Correo Electronico" data-rule="minlen:4" data-msg="Ingrese minimo 4 caracteres">
-           <div class="validate"></div>
-         </div>
-        </div>
-         <div class="form-group">
-          <input type="text" class="form-control" name="asunto" id="asunto" placeholder="Asunto" data-rule="minlen:4" data-msg="Ingrese minimo 8 caracteres">
-          <div class="validate"></div>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" name="mensaje" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Ingrese su mesaje"></textarea>
-          <div class="validate"></div>
-        </div>
-        
-        <div class="text-center">
-          <button type="submit" style="background: #50d8af;border: 0;border-radius: 3px;padding: 10px 30px;color: #fff;transition: 0.4s;cursor: pointer;">Enviar</button>
-        </div>
-        <br>
-        <br>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+            <div class="validate"></div>
+          </div>
 
-      
+          <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
 
 
-        
+
+
 
 
 
@@ -379,43 +346,51 @@
 <!-- Roberto Jiménez -->
 
 <!-- ======= Clients Section ======= -->
-<section id="clients" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+<section id="clients" class="wow fadeInUp">
 <div class="container">
-  <div class="section-header titulo">
+  <div class="section-header">
     <h2>Clientes</h2>
+    <p>Entregamos a nuestros clientes productos diseñados para ser altamente funcionales, fabricados con tecnología de punta y materias primas de la más alta calidad. Nuestra larga experiencia en el mercado es nuestro mayor respaldo.</p>
   </div>
-  <br> 
-  <div>
-    <p>Entregamos a nuestros clientes productos diseñados para ser altamente funcionales, 
-      fabricados con tecnología de punta y materias primas de la más alta calidad. 
-      Nuestra larga experiencia en el mercado es nuestro mayor respaldo.</p>
-  </div>
-  <br>
-  <div class="owl-carousel owl-theme"> 
-     <div><img src="img/Kuchentime.png" alt=""></div>
-     <div><img src="img/Leicht.png" alt="">  </div>
-     <div><img src="img/schuller.png" alt=""></div>
-     <div><img src="img/Siematic.png" alt=""></div>
-     <div><img src="img/sieper.png" alt=""></div>
-     <div><img src="img/snaidero.png" alt=""></div>
-     <div><img src="img/hacker.png" alt=""></div>
-     <div><img src="img/infer.png" alt=""></div>
-  </div>
-</div>
 
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img  src="img/hacker.png" src ="img/Leicht.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img  src="img/infer.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img  src="img/Kuchentime.png" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
-<br>
+  
+
 
 </div>
 </section><!-- End Clients Section -->
 
 <!-- ======= Portfolio Section ======= -->
-<section id="portfolio" class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+<section id="portfolio" class="portfolio wow fadeInUp">
 <div class="container">
-  <div class="section-header titulo">
+  <div class="section-header">
     <h2>Nuestro Portafolio</h2>
-  </div>
-  <div>
       <p><br> Comprometidos con la calidad de nuestros productos, ofrecemos soluciones innovadoras, modernas y funcionales para todos esos proyectos de remodelación, que, como sabemos, constituyen un desafío.</br> 
         <br><b></b>¡Finalmente vamos a tomar decisiones que van a afectarnos durante los próximos 20 años o más!</b></br>
         <br>Conoce en detalle las tendencias y desarrollos tecnológicos hasta el día de hoy. Aprende sobre la ergonomía y las funcionalidades más importantes en el proceso de diseño de tu cocina integral, closets en melamínico, escritorios y demás mobiliario arquitectónico de tu hogar u oficina.</br>
@@ -530,47 +505,12 @@
   </div>
 
 </div>
-
-
 </section><!-- End Portfolio Section -->
 
-<!-- FOTORAMA -->
-
-<div class="container">
-  <div class="fotorama"
-  data-width="100%" data-transition="crossfade" data-nav="thumbs">
-
-  <a href="img/Cocina1.png"><img src="img/Cocina1.png" width="144" height="96"></a>
-  <a href="img/Cocina2.png"><img src="img/Cocina2.png" width="144" height="96"></a>
-  <a href="img/Cocina3.png"><img src="img/Cocina3.png" width="144" height="96"></a>
-  <a href="img/Cocina4.png"><img src="img/Cocina4.png" width="144" height="96"></a>
-
-  <a href="img/Cocina5.png"><img src="img/Cocina5.png" width="144" height="96"></a>
-  <a href="img/Cocina6.png"><img src="img/Cocina6.png" width="144" height="96"></a>
-  <a href="img/Cocina7.png"><img src="img/Cocina7.png" width="144" height="96"></a>
-  <a href="img/Cocina8.png"><img src="img/Cocina8.png" width="144" height="96"></a>
-  <a href="img/Cocina9.png"><img src="img/Cocina9.png" width="144" height="96"></a>
- 
 
 
 
 
-
-
- <!--
-    <img src="img/Cocina1.png">
-    <img src="img/Cocina2.png">
-    <img src="img/Cocina3.png">
-    <img src="img/Cocina4.png">
-    <img src="img/Cocina5.png">
-    <img src="img/Cocina6.png">
-    <img src="img/Cocina7.png">
-    <img src="img/Cocina8.png">
-    <img src="img/Cocina9.png">
-    
- -->
-  </div>
-</div>
 
 
 
@@ -590,17 +530,55 @@
   crossorigin="anonymous"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
 
-  
-  
+  <script>
+    ScrollReveal().reveal('.navbar', {
+      distance: '100%',
+      origin: 'top',
+    });
+    
 
+    ScrollReveal().reveal('.barra', {
+      distance: '100%',
+      origin: 'top',
+    });
 
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js" ></script>
+    ScrollReveal().reveal('.nosotros', {
+      distance: '100%',
+      origin: 'bottom',
+      delay: 600,
+    });
+
+    ScrollReveal().reveal('#iluminacion', {
+      distance: '100%',
+      origin: 'left',
+      delay: 600,
+    });
+
+    ScrollReveal().reveal('#mobiliario', {
+      distance: '100%',
+      origin: 'right',
+      delay: 600,
+    });
+
+    ScrollReveal().reveal('#cocina', {
+      distance: '100%',
+      origin: 'left',
+      delay: 800,
+    });
+
+    ScrollReveal().reveal('#interior', {
+      distance: '100%',
+      origin: 'right',
+      delay: 800,
+    });
+    
+
+  </script>
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script src="OwlCarousel/dist/owl.carousel.min.js"></script>
-  <script src="js/smooth-scroll.js"></script>
-  <script src="js/fotorama.js"></script>
-  <script src="js/codigo.js"></script>
+  
 
 </body>
 

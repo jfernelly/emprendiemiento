@@ -30,7 +30,7 @@ $('.stop').on('click',function(){
 
 /* Efecto Scroll */
 ScrollReveal().reveal('.navbar', {
-    distance: '100%',
+    distance: '200%',
     origin: 'top',
   });
   
@@ -76,7 +76,45 @@ ScrollReveal().reveal('.navbar', {
     origin: 'top',
   });
 
+  ScrollReveal().reveal('.team-img-01', {
+    distance: '100%',
+    origin: 'left',
+    delay: 800,
+  });
+
+  ScrollReveal().reveal('.team-img-02', {
+    distance: '100%',
+    origin: 'left',
+    delay: 1100,
+  });
+
+  ScrollReveal().reveal('.team-img-03', {
+    distance: '100%',
+    origin: 'left',
+    delay: 1300,
+  });
+
+  ScrollReveal().reveal('.team-img-04', {
+    distance: '100%',
+    origin: 'left',
+    delay: 1500,
+  });
+
+  ScrollReveal().reveal('#contact', {
+    distance: '100%',
+    origin: 'right',
+    delay: 1200,
+  });
+
+
+
+
   SmoothScroll('a[href="#services"]');
+  SmoothScroll('a[href="#team"]');
+  SmoothScroll('a[href="#nosotros"]');
+  SmoothScroll('a[href="#inicio"]');
+  SmoothScroll('a[href="#portfolio"]');
+  SmoothScroll('a[href="#contact"]');
 
 
   function consultaAPI(){

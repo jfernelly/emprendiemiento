@@ -17,7 +17,7 @@
 		topOnEmptyHash: true,
 
 		// Speed & Duration
-		speed: 500,
+		speed: 1500,
 		speedAsDuration: false,
 		durationMax: null,
 		durationMin: null,
@@ -230,7 +230,7 @@
 				anchor = anchor.offsetParent;
 			} while (anchor);
 		}
-		location = Math.max(location - headerHeight - offset, 0);
+		location = Math.max(location - headerHeight - (offset + 120), 0);//se modifica offset para bajar 100px mas
 		if (clip) {
 			location = Math.min(location, getDocumentHeight() - window.innerHeight);
 		}
