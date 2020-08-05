@@ -89,11 +89,17 @@ ScrollReveal().reveal('.navbar', {
     delay: 1200,
   });
 
+  ScrollReveal().reveal('#clients', {
+    distance: '100%',
+    origin: 'right',
+    delay: 800,
+  });
 
 
+  clients
 
   SmoothScroll('a[href="#services"]');
-  SmoothScroll('a[href="#team"]');
+  SmoothScroll('a[href="#equipo"]');
   SmoothScroll('a[href="#nosotros"]');
   SmoothScroll('a[href="#inicio"]');
   SmoothScroll('a[href="#portfolio"]');
