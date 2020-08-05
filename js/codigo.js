@@ -59,6 +59,8 @@ ScrollReveal().reveal('.navbar', {
     origin: 'top',
   });
 
+  SmoothScroll('a[href="#services"]');
+
 
   function consultaAPI(){
     const covid = 'https://services.arcgis.com/BQTQBNBsmxjF8vus/ArcGIS/rest/services/Colombia_COVID19V/FeatureServer/6/query?where=1%3D1&outFields=TOTAL_CASOS,FECHA_ACTUALIZACION,TOTAL_RECUPERADOS,NUEVOS_CASOS&outSR=4326&f=json&t='+Date.now();
@@ -86,4 +88,15 @@ ScrollReveal().reveal('.navbar', {
             */
     });
 }
+
+
+
+
+	
+
   
+
+
+
+
+
